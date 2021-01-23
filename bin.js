@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var locateFirefox = require('./');
+const locateFirefox = require('./')
 
-locateFirefox().then(function(r) {
-  console.log(r);
-});
+locateFirefox().then(function (r) {
+  console.log(r)
+})

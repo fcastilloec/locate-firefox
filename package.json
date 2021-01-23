@@ -23,11 +23,15 @@
   "bugs": {
     "url": "https://github.com/fcastilloec/locate-firefox/issues"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "standard"
+  },
   "dependencies": {
     "es6-promise": "^2.0.0",
     "queue-async": "^1.0.0",
     "userhome": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
